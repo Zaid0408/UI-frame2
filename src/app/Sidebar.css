@@ -1,0 +1,70 @@
+/* Sidebar.css */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ddd;
+    width: 250px;
+  }
+  .menu-section, .account-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    flex: 1;
+  }
+  
+  .menu-section {
+    flex: 1;
+  }
+  
+  .logo {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #000000;
+   
+  }
+  
+  .menu1 {
+    padding: 20px;
+  }
+  
+  .menu1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu1 li {
+    padding: 10px 0;
+    cursor: pointer;
+    margin-left: 15px;
+    color: black;
+  }
+  .menu1 h4{
+    color: rgb(142, 142, 142);
+  }
+  
+  .account-section {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .account-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .account-menu li {
+    padding: 10px 0;
+    cursor: pointer;
+    margin-left: 15px;
+    color: black;
+  }
+  .account-menu h4{
+    color: rgb(142, 142, 142);
+  }
